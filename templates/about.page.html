@@ -1,0 +1,15 @@
+{{ template "base" . }}
+{{define "title"}} About Page {{end}}
+{{define "content"}}
+    <h1>This is the aboutPage</h1>
+
+    this came from the template: {{index .StringMap "Hello" }}
+
+<p>
+    {{if ne (index .StringMap "remote_ip") ""}}
+    Your IP is {{index .StringMap "remote_ip"}}
+    {{else}}
+I do not know your IP
+    {{end}}
+</p>
+{{end}}
