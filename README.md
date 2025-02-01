@@ -45,17 +45,6 @@ Go-Booking-Management is a Go-based booking management system designed for handl
    go run main.go
    ```
 
-## API Endpoints
-
-| Method | Endpoint           | Description               |
-|--------|-------------------|---------------------------|
-| POST   | /auth/register     | Register a new user      |
-| POST   | /auth/login        | Login user               |
-| GET    | /bookings          | Get all bookings         |
-| POST   | /bookings          | Create a new booking     |
-| PUT    | /bookings/:id      | Update an existing booking |
-| DELETE | /bookings/:id      | Delete a booking         |
-
 ## Packages Used
 This project makes use of the following Go packages:
 - [github.com/alexedwards/scs/v2](https://github.com/alexedwards/scs) v2.8.0 - Session management for Go web applications.
